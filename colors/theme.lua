@@ -255,7 +255,7 @@ local highlights = {
   ['NeoTreeGitAdded'] = { fg = colors.green },
   ['NeoTreeGitConflict'] = { fg = colors.red },
   ['NeoTreeGitDeleted'] = { fg = colors.red },
-  ['NeoTreeGitIgnored'] = { fg = colors.darkcyan },
+  ['NeoTreeGitIgnored'] = { fg = colors.darkgray },
   ['NeoTreeGitModified'] = { fg = colors.darkyellow },
   ['NeoTreeGitStaged'] = { fg = colors.green },
   ['NeoTreeGitRenamed'] = { fg = colors.green },
