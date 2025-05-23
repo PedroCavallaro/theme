@@ -243,8 +243,10 @@ local highlights = {
   ['TelescopePreviewBorder'] = { link = 'FloatBorder' },
 
   -- IndentBlankline
-  ['IblIndent'] = { fg = grayscale.gray3 },
-  ['IblScope'] = { fg = grayscale.gray6 },
+  ['SnacksIndent'] = { fg = grayscale.gray3 },
+  ['SnacksIndentChunk'] = { fg = grayscale.gray6 },
+  ['SnacksIndentBlank'] = { fg = grayscale.gray6 },
+  ['SnacksIndentScope'] = { fg = grayscale.gray6 },
 
   -- ZSH
   ['zshVariableDef'] = { link = 'Constant' },
