@@ -14,10 +14,15 @@ local highlights = {
 
   --Rust
   ['LspInlayHint'] = { fg = grayscale.gray11 },
-  ['@type.struct'] = { fg = ui.foreground },
-  ['Structure'] = { fg = colors.blue },
+  ['@lsp.type.struct.rust'] = { link = 'Constant' },
+  ['@lsp.type.derive.rust'] = { link = 'Constant' },
+  ['@lsp.typemod.derive.attribute.rust'] = { link = 'Constant' },
+  ['@lsp.type.builtinType.rust'] = { link = 'String' },
+  ['@lsp.typemod.generic.attribute.rust'] = { link = 'String' },
+  ['@lsp.type.interface.rust'] = { link = 'Constant' },
+  ['@lsp.typemod.typeParameter.declaration.rust'] = { link = 'Constant' },
+  ['@lsp.typemod.typeAlias.declaration.rust'] = { link = 'Constant' },
 
-  -- Default Highlight Groups
   ['ColorColumn'] = { fg = ui.foreground },
   ['Comment'] = { fg = grayscale.gray9 },
   ['Conceal'] = { fg = ui.foreground },
